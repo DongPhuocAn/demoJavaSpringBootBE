@@ -26,7 +26,7 @@ public class GoodServiveImpl implements GoodService{
 
     @Override
     public Goods add(Goods goods) {
-       return null;
+       return this.goodRepository.save(goods);
     }
 
     @Override

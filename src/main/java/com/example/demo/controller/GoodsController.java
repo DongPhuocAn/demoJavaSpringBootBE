@@ -35,7 +35,6 @@ public class GoodsController {
     public ResponseEntity<Goods> addGoods(@RequestBody Goods goods) {
         Goods newGoods = this.goodService.add(goods);
         return new ResponseEntity<Goods>(newGoods, HttpStatus.OK);
-
     }
 
 

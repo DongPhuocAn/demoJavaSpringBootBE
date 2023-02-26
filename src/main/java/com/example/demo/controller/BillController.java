@@ -2,7 +2,6 @@ package com.example.demo.controller;
 
 import com.example.demo.entity.Bill;
 import com.example.demo.services.BillServices;
-import com.sun.org.glassfish.gmbal.ParameterNames;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
